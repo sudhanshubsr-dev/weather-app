@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather App
 
-## Getting Started
+## Installation
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/sudhanshubsr-dev/weather-app.git`
+2. Navigate to the project directory: `cd weather-app`
+3. Install dependencies: `yarn install`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Usage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Start the development server: `yarn run dev`
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+6. Enter a city name in the search bar and press Enter or click the search button.
+7. The weather information for the specified city will be displayed, including the current temperature, humidity, and a 7-day forecast.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features and Enhancements
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Extended Weather Data**: The app provides detailed weather information, including current temperature, humidity, wind speed, and more.
 
-## Learn More
+- **Interactive Forecast**: Explore a 7-day forecast to plan ahead with additional details like maximum and minimum temperatures for each day.
 
-To learn more about Next.js, take a look at the following resources:
+- **User-Friendly Interface**: A clean and intuitive user interface for a seamless weather-checking experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Design**: Access the app from various devices with a responsive design that adapts to different screen sizes.(in progress..)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Search Suggestions**: Get city name suggestions as you type, enhancing the search experience.
 
-## Deploy on Vercel
+- **Icons for Weather Conditions**: Visualize weather conditions using icons for better user understanding.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+
+
+## Credits
+
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [Axios](https://axios-http.com/) - Promise-based HTTP client for making API requests
+- [React Spinners](https://www.davidhu.io/react-spinners/) - Loading spinner component for React
+- [Font Awesome](https://fontawesome.com/) - Icon library
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+
+Feel free to customize this README file to fit the specific details and requirements of your project.
