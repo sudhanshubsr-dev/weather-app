@@ -46,9 +46,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## 🙏 Credits
 
-- [React](https://reactjs.org/) ![React Logo](link-to-react-logo)
-- [Axios](https://axios-http.com/) ![Axios Logo](link-to-axios-logo)
-- [Font Awesome](https://fontawesome.com/) ![Font Awesome Logo](link-to-fontawesome-logo)
-- [Tailwind CSS](https://tailwindcss.com/) ![Tailwind CSS Logo](link-to-tailwindcss-logo)
+- [React](https://reactjs.org/) 
+- [Axios](https://axios-http.com/) 
+- [Font Awesome](https://fontawesome.com/) 
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Feel free to customize this README file to fit the specific details and requirements of your project.
