@@ -44,10 +44,3 @@ Check out the live demo [here](https://weatherapp.sudhanshu.site/).
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## 🙏 Credits
-
-- [React](https://reactjs.org/) 
-- [Axios](https://axios-http.com/) 
-- [Font Awesome](https://fontawesome.com/) 
-- [Tailwind CSS](https://tailwindcss.com/)
-
