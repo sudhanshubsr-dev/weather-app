@@ -1,10 +1,11 @@
-# Weather App
+# 🌦 Weather App
 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/sudhanshubsr-dev/weather-app.git`
 2. Navigate to the project directory: `cd weather-app`
-3. Install dependencies: `yarn install`
+3. Add an .env file with "API_KEY" as a variable and add an API key to it.
+4. Install dependencies: `yarn install`
 
 ## Usage
 
@@ -13,7 +14,7 @@
 6. Enter a city name in the search bar and press Enter or click the search button.
 7. The weather information for the specified city will be displayed, including the current temperature, humidity, and a 7-day forecast.
 
-## Features and Enhancements
+## 🚀 Features and Enhancements
 
 - **Extended Weather Data**: The app provides detailed weather information, including current temperature, humidity, wind speed, and more.
 
@@ -21,24 +22,33 @@
 
 - **User-Friendly Interface**: A clean and intuitive user interface for a seamless weather-checking experience.
 
-- **Responsive Design**: Access the app from various devices with a responsive design that adapts to different screen sizes.(in progress..)
+- **Responsive Design**: Access the app from various devices with a responsive design that adapts to different screen sizes (in progress..)
 
 - **Search Suggestions**: Get city name suggestions as you type, enhancing the search experience.
 
 - **Icons for Weather Conditions**: Visualize weather conditions using icons for better user understanding.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-
-
-## Credits
+## 🛠️ Technologies Used
 
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces
 - [Axios](https://axios-http.com/) - Promise-based HTTP client for making API requests
 - [React Spinners](https://www.davidhu.io/react-spinners/) - Loading spinner component for React
-- [Font Awesome](https://fontawesome.com/) - Icon library
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+
+
+## 🌐 Live Demo
+
+Check out the live demo [here](https://weatherapp.sudhanshu.site/).
+
+## 📝 Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## 🙏 Credits
+
+- [React](https://reactjs.org/) ![React Logo](link-to-react-logo)
+- [Axios](https://axios-http.com/) ![Axios Logo](link-to-axios-logo)
+- [Font Awesome](https://fontawesome.com/) ![Font Awesome Logo](link-to-fontawesome-logo)
+- [Tailwind CSS](https://tailwindcss.com/) ![Tailwind CSS Logo](link-to-tailwindcss-logo)
 
 Feel free to customize this README file to fit the specific details and requirements of your project.
