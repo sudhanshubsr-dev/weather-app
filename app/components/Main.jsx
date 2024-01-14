@@ -38,7 +38,7 @@ const Home = () => {
             {currentWeatherData?.location?.name}
             </div>
             <div>                            
-              <img src={currentWeatherData?.current?.condition?.icon} width="80px" height="80px" />
+              <img src={currentWeatherData?.current?.condition?.icon} width="90px" height="90px" />
             </div>
           </div>
           
