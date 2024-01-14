@@ -14,7 +14,7 @@ const FutureForecastComponet = ({futureWeatherDay, isCelcius}) => {
   const {day, icon, temp_c,temp_f, condition} = formatData(futureWeatherDay)
   return (
     
-        <div className='flex justify-between items-center border-b border-secondary p-4 gap-5 mt-1 mb-3'>
+        <div className='flex justify-between items-center border-b border-secondary p-3 gap-3 mt-1 '>
             <div className='py-2 px-2'>
                 <p>{day}</p>
             </div>

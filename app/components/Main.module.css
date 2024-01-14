@@ -1,0 +1,176 @@
+/* Base styles for all screen sizes */
+.mainContainer {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: repeat(7, 2em, 1fr);
+    width: 100vw;
+    max-width: 1300px;
+    padding: 1em;
+    overflow-x: hidden;
+}
+
+.mainContainer > * {
+    margin-bottom: 0.8em;
+    box-sizing: border-box;
+}
+
+
+
+.searchBarContainer {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    max-width: 768px;
+}
+
+.toggleButtonContainer {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    place-items: start;
+    margin-top: 0.3em;
+    
+}
+
+.currentWeatherContainer {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0 !important;
+    display: grid;
+    grid-template-columns: 100%;
+    overflow: hidden;
+    grid-template-rows: 1fr 1fr 50% 1fr;
+    text-wrap: wrap;
+    max-height: 390px;
+    max-width: 768px;
+}
+
+.currentWeatherJumbotron {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: end;
+    text-wrap: wrap;
+}
+
+.subjumbotronSection {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: medium;
+    color: var(--primary);
+}
+
+
+
+.temperatureDigits {
+    font-size: 8em;
+    font-weight: 400;
+    padding: 0 !important;
+    color: var(--primary);
+    
+}
+
+.minmaxtemp {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.todayForecastContainer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    max-width: 768px;
+}
+
+.airConditionsContainer {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    max-width: 768px;
+}
+
+.futureForecastContainer {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    max-width: 768px;
+}
+.Loader{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .mainContainer{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 1em, 1fr);
+        width: 100vw;
+        max-width: 1300px;
+        padding:5em;
+        overflow-x: hidden;
+        gap:1em
+        }
+    .searchBarContainer {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 100% !important;
+
+    }
+    .toggleButtonContainer{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: grid;
+        place-content: start;
+        justify-content: end;
+        margin-top: 0.3em;
+    }
+    .Loader{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .mainContainer{
+    display: grid;
+    grid-template-columns: 61% 39%;
+    grid-template-rows: repeat(5, 1em, 1fr);
+    width: 100vw;
+    max-width: 1300px;
+    padding: 1em;
+    overflow-x: hidden;
+    gap:1em
+    }
+    .toggleButtonContainer{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: grid;
+        place-content: start;
+        justify-content: end;
+    }
+
+    .futureForecastContainer{
+        grid-column: 2/3;
+        grid-row: 2/5;
+        padding: 0.5em;  
+    }
+    .Loader{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+

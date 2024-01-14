@@ -1,0 +1,40 @@
+.conditionsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.airconditionsTitle{
+    grid-column: 1/2;
+    grid-row:1/2;
+    margin-bottom: 1.3em;
+}
+
+.airConditionsValuesContainer{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.3em;
+}
+
+.realfeelContainer{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.windspeedContainer{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.humidityContainer{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.uvindexContainer{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}

@@ -3,14 +3,15 @@ import { FaTemperatureHigh } from "react-icons/fa6";
 import { MdWbSunny } from "react-icons/md";
 import { BsDropletHalf } from "react-icons/bs";
 import { SiWindicss } from "react-icons/si";
+import styles from './AirConditions.module.css'
 const AirConditionsComponent = ({currentWeatherData, isCelcius}) => {
   return (
-    <div className="md:block hidden sm:block w-[45rem]  h-[16rem] mt-3 md:ml-8   px-7 py-2 bg-navbg rounded-[17px] flex-col justify-start items-start gap-2 ">
-    <div className="w-[165px] h-[19px] text-text text-sm font-extrabold font-inter">Air Conditions</div>
-      <div className='grid grid-cols-2 gap-4 mt-4'>
+    <div className={styles.conditionsContainer}>
+    <div className={styles.airconditionsTitle}>Air Conditions</div>
+      <div className={styles.airConditionsValuesContainer}>
 
         {/* Real Feel */}
-        <div className='real-feel  h-[5rem]'>
+        <div className={styles.realfeelContainer}>
             <div className='text-text text-sm font-medium font-poppins flex items-center gap-2 ml-2'>
                 <div><FaTemperatureHigh color='#EA580C'/></div>
                 <div className='text-lg'>Real Feel</div>
@@ -19,7 +20,7 @@ const AirConditionsComponent = ({currentWeatherData, isCelcius}) => {
         </div>
 
         {/* Wind */}
-        <div className='real-feel  h-[5rem]'>
+        <div className={styles.windspeedContainer}>
             <div className='text-text text-sm font-medium font-poppins flex items-center gap-2 ml-2'>
                 <div><SiWindicss color='#EA580C'/></div>
                 <div className='text-lg'>Wind</div>
@@ -28,21 +29,21 @@ const AirConditionsComponent = ({currentWeatherData, isCelcius}) => {
         </div>
 
         {/* Chances of Rain */}
-        <div className='real-feel  h-[5rem]'>
+        <div className={styles.humidityContainer}>
             <div className='text-text text-sm font-medium font-poppins flex items-center gap-2 ml-2'>
                 <div><BsDropletHalf color='#EA580C' /></div>
                 <div className='text-lg'>Wind Direction</div>
             </div>
             <div className='text-text text-3xl ml-7 mt-2 font-bold font-poppins'>
             {(currentWeatherData?.current?.wind_degree !== undefined && currentWeatherData?.current?.wind_dir)
-    ? `${currentWeatherData.current.wind_degree}°${currentWeatherData.current.wind_dir}`
-    : 'NA'}
-                </div>
+            ? `${currentWeatherData.current.wind_degree}°${currentWeatherData.current.wind_dir}`
+            : 'NA'}
+            </div>
         </div>
 
 
         {/* UV Index */}
-        <div className='real-feel  h-[5rem]'>
+        <div className={styles.uvindexContainer}>
             <div className='text-text text-sm font-medium font-poppins flex items-center gap-2 ml-2'>
                 <div><MdWbSunny color='#EA580C' /></div>
                 <div className='text-lg'>UV Index</div>
